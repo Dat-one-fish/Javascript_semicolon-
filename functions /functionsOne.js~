@@ -1,0 +1,76 @@
+function areaRectangle (width,height) {
+
+    area = width * height
+
+    return area
+
+}
+
+function  expression (digitone,digittwo,digitthree,digitfour,digitfive,digitsix) {
+
+    
+    partone = digitone*digittwo - digitfive* digitsix
+    parttwo = digitfour - digitthree
+
+    result = partone / parttwo 
+
+    return result
+
+}
+
+function  sumBetween (digit) {
+
+    result = 0
+    for ( let i = 1; i  < digit ; i++){
+         result += i
+    }
+
+
+    return result
+
+}
+
+
+function  milePerHours (kilo, minutes) {
+
+        mile = kilo / 1.6 
+
+        seconds = (minutes* 60) + 30
+
+        hours = seconds / 360
+
+        mph = mile / hours 
+
+
+    return mph
+
+}
+
+
+function calcutaionsForCircle (radius) {
+
+        perimeter = 2 * radius * 3.14
+
+        area = radius**2 * 3.14
+
+
+    return perimeter, area
+
+}
+
+
+a = areaRectangle(3, 4)
+b = sumBetween(20)
+c = expression(1.8,2,3.9,4.9,5.5,6.7)
+d = milePerHours(140, 70)
+e = calcutaionsForCircle(5.5)
+
+
+console.log(a)
+console.log(b)
+console.log(c)
+console.log(d)
+console.log(e)
+
+
+

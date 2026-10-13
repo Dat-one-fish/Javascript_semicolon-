@@ -1,0 +1,15 @@
+let kilo = 14
+let minutes = 45 
+
+
+
+mile = 14/ 1.6 
+
+seconds = (45* 60) + 30
+
+hours = seconds / 360
+
+mph = mile / hours 
+
+console.log(mph +" miles per hour") 
+
